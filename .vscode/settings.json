@@ -1,0 +1,11 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "Cafe Database",
+            "database": "${workspaceFolder:swift-playground-12swe-2026-MatuaDoc}/Sources/SwiftPlayground/cafe.db"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
