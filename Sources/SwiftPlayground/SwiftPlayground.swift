@@ -13,10 +13,13 @@ struct SwiftPlayground {
         print("Enter a verb:")
         let verb1 = readLine()!
 
+        print("Enter an adjective:")
+        let adjective2 = readLine()!
+
         print("Enter a noun:")
         let noun2 = readLine()!
 
-        let madLibString = "If you ever meet a \(adjective1) \(noun1) you should \(verb1) away."
+        let madLibString = "If you ever meet a \(adjective1) \(noun1) you should \(verb1) away to the most \(adjective2) \(noun2) you can find."
 
         print(madLibString)
     }
